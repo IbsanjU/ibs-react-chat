@@ -1,0 +1,36 @@
+[debug] [2021-05-29T15:35:56.194Z] ----------------------------------------------------------------------
+[debug] [2021-05-29T15:35:56.195Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ibsanju\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2021-05-29T15:35:56.196Z] CLI Version:   9.12.0
+[debug] [2021-05-29T15:35:56.196Z] Platform:      win32
+[debug] [2021-05-29T15:35:56.196Z] Node Version:  v14.17.0
+[debug] [2021-05-29T15:35:56.197Z] Time:          Sat May 29 2021 21:05:56 GMT+0530 (India Standard Time)
+[debug] [2021-05-29T15:35:56.197Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-29T15:35:56.203Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-29T15:35:56.203Z] > authorizing via signed-in user (bharath2668@gmail.com)
+[debug] [2021-05-29T15:35:56.203Z] [iam] checking project ibs-chat-react for permissions ["firebase.projects.get"]
+[debug] [2021-05-29T15:35:56.205Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ibs-chat-react:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-05-29T15:35:57.862Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 29 May 2021 15:35:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1290","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] !  Your requested "node" version "10" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"14\""}}
+[debug] [2021-05-29T15:35:57.881Z] defaultcredentials: writing to file C:\Users\ibsanju\AppData\Roaming\firebase\bharath2668_gmail_com_application_default_credentials.json
+[debug] [2021-05-29T15:35:57.882Z] DEBUG: Setting GAC to C:\Users\ibsanju\AppData\Roaming\firebase\bharath2668_gmail_com_application_default_credentials.json
+[debug] [2021-05-29T15:35:57.883Z] > refreshing access token with scopes: []
+[debug] [2021-05-29T15:35:57.884Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-29T15:35:58.098Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sat, 29 May 2021 15:35:57 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-29T15:35:58.116Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ibs-chat-react/adminSdkConfig [none]
+[debug] [2021-05-29T15:35:58.890Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ibs-chat-react/adminSdkConfig 200
+[debug] [2021-05-29T15:35:58.890Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ibs-chat-react/adminSdkConfig {"projectId":"ibs-chat-react","storageBucket":"ibs-chat-react.appspot.com","locationId":"us-central"}
+[debug] [2021-05-29T15:35:58.898Z] [functions] Watching "C:\Users\ibsanju\Documents\react-firebase-chat-master\react-firebase-chat-master\functions" for Cloud Functions...
+[debug] [2021-05-29T15:35:58.912Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-05-29T15:35:58.912Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-05-29T15:35:58.912Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-05-29T15:35:58.912Z] DEBUG: [worker-~diagnostic~-a5aacf47-d216-4dc9-bade-44f4a61814f4]: Assigning socketPath: \\?\pipe\C:\Users\ibsanju\Documents\react-firebase-chat-master\react-firebase-chat-master\functions\508
+[debug] [2021-05-29T15:35:58.912Z] DEBUG: [worker-~diagnostic~-a5aacf47-d216-4dc9-bade-44f4a61814f4]: BUSY
+[debug] [2021-05-29T15:35:59.069Z] DEBUG: [runtime-status] [508] Functions runtime initialized. {"cwd":"C:\\Users\\ibsanju\\Documents\\react-firebase-chat-master\\react-firebase-chat-master\\functions","node_version":"14.17.0"}
+[debug] [2021-05-29T15:35:59.069Z] DEBUG: [runtime-status] [508] Disabled runtime features: undefined
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory. {"metadata":{"emulator":{"name":"functions"},"message":"The Cloud Functions emulator requires the module \"firebase-admin\" to be installed. This package is in your package.json, but it's not available. You probably need to run \"npm install\" in your functions directory."}}
+[debug] [2021-05-29T15:35:59.072Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2021-05-29T15:35:59.098Z] DEBUG: [worker-~diagnostic~-a5aacf47-d216-4dc9-bade-44f4a61814f4]: exited
+[debug] [2021-05-29T15:35:59.098Z] DEBUG: [worker-~diagnostic~-a5aacf47-d216-4dc9-bade-44f4a61814f4]: FINISHED
