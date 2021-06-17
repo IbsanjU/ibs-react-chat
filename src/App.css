@@ -16,7 +16,7 @@ body {
 
 .App header {
   background-color: #141414;
-  height: 10%;
+  height: 10vh;
   min-height: 50px;
   color: white;
   position: fixed;
@@ -43,7 +43,7 @@ body {
 
 main {
   padding: 8px;
-  height: 88vh;
+  height: 80vh;
   margin: 10vh 0 10vh;
   overflow-y: scroll;
   display: flex;
@@ -63,7 +63,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 form {
-  height: 8%;
+  height: 10vh;
   position: fixed;
   bottom: 0;
   background-color: rgb(24 23 23);
